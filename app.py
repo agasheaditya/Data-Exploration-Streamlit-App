@@ -42,7 +42,7 @@ def main():
     file_buffer = st.file_uploader(label="Upload your Dataset", type=['csv', 'xlsx', 'xlsm'])
         
     if file_buffer:
-        df = pd.read_excel(file_buffer,)
+        df = pd.read_excel(file_buffer)
         if st.sidebar.checkbox('Show Data'):
             
             chosen = st.radio('Quick look', ("Head", "Tail", "Sample"))
