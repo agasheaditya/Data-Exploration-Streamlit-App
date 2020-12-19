@@ -6,7 +6,7 @@ import io
 #import plotly.graph_objects as go
 
 
-#st.set_option('deprecation.showfileUploaderEncoding', False)
+st.set_option('deprecation.showfileUploaderEncoding', False)
 
 
 def showSampleData(DataFrame, size):
